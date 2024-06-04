@@ -1,6 +1,6 @@
 import { arc, pie } from "d3";
 
-import "components/home-chart/home-chart.module.scss";
+import "./home-chart.module.scss";
 
 function homeChart() {
   const processedData = pie()(filteredData.map((datum) => datum.amount));

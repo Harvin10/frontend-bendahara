@@ -1,7 +1,7 @@
-import styles from "components/navigation/navigation.module.scss";
-import home from "assets/icon-home.svg";
-import plus from "assets/icon-plus.svg";
-import { Client } from './@notionhq/client';
+import styles from "./navigation.module.scss";
+import home from "@Assets/icon-home.svg";
+import plus from "@Assets/icon-plus.svg";
+import { Client } from '@notionhq/client';
 
 const navigationData = [
   {

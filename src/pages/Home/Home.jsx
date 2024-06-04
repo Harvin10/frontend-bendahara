@@ -1,5 +1,5 @@
-import styles from "pages/Home/Home.module.scss";
-import Navigation from "components/navigation/navigation";
+import styles from "./Home.module.scss";
+import Navigation from "@Components/navigation/navigation";
 
 function Home() {
   return (
