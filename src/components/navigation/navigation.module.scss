@@ -1,0 +1,24 @@
+.navigation {
+  width: 100vw;
+  padding: .08rem;
+  background-color: salmon;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  box-sizing: border-box;
+
+  &__child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: .12rem;
+
+    &__image {
+      width: .12rem;
+      margin-bottom: .04rem;
+    }
+  }
+}
