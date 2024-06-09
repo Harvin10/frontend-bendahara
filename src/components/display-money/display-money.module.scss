@@ -1,0 +1,34 @@
+.displayMoney {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  &__currency {
+    padding: 0.06rem 0.04rem 0.06rem 0.06rem;
+    border-radius: 0.04rem 0 0 0.04rem;
+    background-color: #00fff5;
+    color: white;
+  }
+
+  &__amount {
+    width: 100%;
+    padding: 0.05rem 0.05rem 0.05rem 0.08rem;
+    border-width: 0.01rem 0.01rem 0.01rem 0;
+    border-style: solid;
+    border-color: #d8dbdd;
+    border-radius: 0 0.04rem 0.04rem 0;
+    font-size: 0.12rem;
+  }
+}
+
+.green {
+  background-color: #18ff00;
+}
+
+.red {
+  background-color: #ff000d;
+}

@@ -1,0 +1,17 @@
+.balance {
+  padding: 0.08rem;
+  border-radius: 0.04rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.08rem;
+  box-sizing: border-box;
+
+  &__detail {
+    width: 100%;
+    display: flex;
+    gap: 0.08rem;
+  }
+}
