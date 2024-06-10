@@ -2,7 +2,7 @@
 import styles from "./display-money.module.scss";
 
 // utils
-import { formatMoney } from "../../utils";
+import { formatMoney } from "@Utils";
 
 function displayMoney({ amount, color }) {
   return (

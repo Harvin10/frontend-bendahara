@@ -10,10 +10,33 @@ const fetchNotionApi = async (url, request = {}) => {
 };
 
 const formatMoney = (amount) => {
-  const modifiedAmount = amount
+  const modifiedAmount = parseInt(amount)
     .toString()
     .replace(/\B(?=(\d{3})+(?!\d))/g, ".");
   return `${modifiedAmount}`;
 };
 
-export { fetchNotionApi, formatMoney };
+const splitDate = (date) => {
+  const monthMap = {
+    1: "Jan",
+    2: "Feb",
+    3: "Mar",
+    4: "Apr",
+    5: "May",
+    6: "Jun",
+    7: "Jul",
+    8: "Aug",
+    9: "Sep",
+    10: "Oct",
+    11: "Nov",
+    12: "Des",
+  };
+  const modifiedDate = date.split("-");
+  return {
+    year: modifiedDate[0],
+    month: monthMap[parseInt(modifiedDate[1])],
+    day: parseInt(modifiedDate[2]),
+  };
+};
+
+export { fetchNotionApi, formatMoney, splitDate };

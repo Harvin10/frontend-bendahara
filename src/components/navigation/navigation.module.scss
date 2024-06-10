@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   box-sizing: border-box;
@@ -19,7 +19,7 @@
     font-size: 0.12rem;
 
     &__image {
-      width: 0.12rem;
+      height: 0.12rem;
       margin-bottom: 0.04rem;
     }
   }

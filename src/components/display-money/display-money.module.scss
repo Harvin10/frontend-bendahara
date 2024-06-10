@@ -4,6 +4,7 @@
   display: flex;
   justify-content: left;
   align-items: center;
+  font-size: 0.16rem;
   box-sizing: border-box;
   overflow: hidden;
 
@@ -11,7 +12,6 @@
     padding: 0.06rem 0.04rem 0.06rem 0.06rem;
     border-radius: 0.04rem 0 0 0.04rem;
     background-color: #00fff5;
-    color: white;
   }
 
   &__amount {
@@ -21,7 +21,6 @@
     border-style: solid;
     border-color: #d8dbdd;
     border-radius: 0 0.04rem 0.04rem 0;
-    font-size: 0.12rem;
   }
 }
 

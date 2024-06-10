@@ -1,0 +1,71 @@
+.table {
+  width: 100%;
+  margin-top: 0.08rem;
+  border-radius: 0.04rem;
+  background-color: white;
+  overflow: hidden;
+}
+
+.headerRow {
+  padding: 0.08rem;
+  border-bottom: 1px solid #b1b7ba;
+  background-color: #ecedee;
+  font-size: 0.1rem;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.row {
+  padding: 0.04rem 0.08rem;
+  font-size: 0.1rem;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.column:first-of-type > .row {
+  padding-top: 0.08rem;
+}
+
+.column:last-of-type > .row {
+  padding-bottom: 0.08rem;
+}
+
+.date {
+  padding: 0.04rem;
+  border-radius: 0.04rem;
+  background-color: #d8dbdd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__day {
+    font-size: 0.16rem;
+    font-weight: bold;
+  }
+
+  &__month {
+    font-size: 0.12rem;
+    line-height: 0.16rem;
+  }
+
+  &__year {
+    font-weight: lighter;
+  }
+
+  &__income {
+    background-color: #18ff00;
+  }
+
+  &__expense {
+    background-color: #ff000d;
+  }
+}
+
+.amount {
+  text-wrap: nowrap;
+}
+
+.loading {
+  padding: 1rem 0;
+  text-align: center;
+}
